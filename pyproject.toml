@@ -7,7 +7,9 @@ authors = [
     { name = "Tiwari-Tech", email = "someshmani.tiwari.w@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "evaluate>=0.4.6",
+]
 
 [project.scripts]
 nlp-project = "nlp_project:main"

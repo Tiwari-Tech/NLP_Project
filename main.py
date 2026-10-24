@@ -1,8 +1,8 @@
 from NLP_Project.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from NLP_Project.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
-# from NLP_Project.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
-# from NLP_Project.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
-# from NLP_Project.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+from NLP_Project.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from NLP_Project.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from NLP_Project.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 from NLP_Project.logging import logger
 
 
